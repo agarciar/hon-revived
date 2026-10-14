@@ -1,3 +1,8 @@
+> **Fork de `mmalolepszy/hon-revived`.** Incluye una copia de `pyhon-revived` (commit `ceb47d7`, 20-sep-2026) en
+> `custom_components/hon/lib/pyhon`, con los arreglos del vigilante MQTT (#12) y de `rules.py` (#13) que aún no están
+> en PyPI (0.19.2). Ver `custom_components/hon/lib/PYHON_VERSION.txt`. Cuando exista una versión oficial con esos cambios,
+> vuelve al repositorio original.
+
 # Haier hOn Revived
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)

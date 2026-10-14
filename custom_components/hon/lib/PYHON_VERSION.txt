@@ -1,0 +1,2 @@
+pyhon-revived @ ceb47d730d7f34ecfe557ed9760640f9f8957681 (mmalolepszy/pyhon-revived), copiado tal cual.
+Incluye los cambios de 2026-09-20 que no están en PyPI (0.19.2): #12 vigilante MQTT, #13 rules.py, #9 favoritos.

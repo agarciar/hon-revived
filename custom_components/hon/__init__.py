@@ -1,3 +1,13 @@
+import sys
+from pathlib import Path as _Path
+
+# Fork agarciar/hon-revived: usa la copia incluida de pyhon (lib/pyhon, commit
+# ceb47d7 de pyhon-revived) en lugar de la 0.19.2 de PyPI, que no trae los
+# arreglos del 2026-09-20. Debe ir antes de cualquier "import pyhon".
+_LIB = str(_Path(__file__).parent / "lib")
+if _LIB not in sys.path:
+    sys.path.insert(0, _LIB)
+
 import logging
 from pathlib import Path
 from typing import Any

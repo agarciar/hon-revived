@@ -6,11 +6,12 @@
     "@Andre0512"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/mmalolepszy/hon-revived/",
+  "documentation": "https://github.com/agarciar/hon-revived/",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/mmalolepszy/hon-revived/issues",
+  "issue_tracker": "https://github.com/agarciar/hon-revived/issues",
   "requirements": [
-    "pyhon-revived==0.19.2"
+    "awsiotsdk>=1.21.0",
+    "typing-extensions>=4.8"
   ],
-  "version": "0.19.2"
+  "version": "0.19.2.1"
 }
